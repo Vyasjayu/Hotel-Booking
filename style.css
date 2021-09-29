@@ -55,7 +55,7 @@ img{
 /* header */
 .header{
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), 
-    url(image/banner-img.jpg) center/cover no-repeat;
+    url(https://raw.githubusercontent.com/prabinmagar/hotel-gp-single-page-site/1516e5adfd91beaa72d52d6c27c4545d8d39bf3d/images/banner-img.jpg) center/cover no-repeat;
     min-height: 100vh;
     color: #fff;
     padding: 25px;
@@ -240,7 +240,7 @@ img{
 
 /* booking form */
 .book{
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(image/banner-img.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(https://raw.githubusercontent.com/prabinmagar/hotel-gp-single-page-site/1516e5adfd91beaa72d52d6c27c4545d8d39bf3d/images/banner-img.jpg) center/cover no-repeat;
     color: #fff;
     padding: 40px 60px;
 }
@@ -387,7 +387,7 @@ img{
 .customers{
     margin-top: 40px;
     padding: 40px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/customer-banner.jpg) center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://raw.githubusercontent.com/prabinmagar/hotel-gp-single-page-site/1516e5adfd91beaa72d52d6c27c4545d8d39bf3d/images/customer-banner.jpg) center/cover no-repeat fixed;
 }
 .customer{
     background: #fff;
