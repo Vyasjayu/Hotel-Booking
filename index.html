@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href=C:\Users\LENOVO\Desktop\Jsmini.html\style.css>
+    <link rel="icon" href="image/logo.png" type="image/png">
+    <link rel="image" href="C:\Users\LENOVO\Desktop\Jsmini.html\image">
+    <!--<link rel="javascript" href="C:\Users\LENOVO\Desktop\Jsmini.html\javascript.js">-->
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body> 
+    <!--header-->
+    <header class="header" id="header">
+        <div class="head-top">
+            <div class="site-name">
+                <span>BEST HOTEL</span>
+            </div>
+            <!--<div class="site-nav">
+                <span id="nav-btn">MENU <i class="fas fa-bars"></i></span>
+            </div>-->
+
+            <div class="head-bottom flex">
+                <h2>NICE AND COMFORTABLE PLACE STAY</h2>
+                <p>Big savings on hotels in 120000 destinations worldwide.
+                     Here find the guaranteed best price on hotels for all budgets.</p>
+                <button type="button" class="head-btn">GET STARTED</button> 
+            </div>
+            <div class="site-nav">
+                <span id="nav-btn">MENU <i class="fas fa-bars"></i></span>
+            </div>
+        </div>
+    </header>
+    <!-- End header  -->
+
+     <!-- side navbar -->
+     <div class = "sidenav" id = "sidenav">
+        <span class = "cancel-btn" id = "cancel-btn">
+            <i class = "fas fa-times"></i>
+        </span>
+
+        <ul class = "navbar">
+            <li><a href = "#header">home</a></li>
+            <li><a href = "#services">services</a></li>
+            <li><a href = "#rooms">rooms</a></li>
+            <li><a href = "#customers">customers</a></li>
+        </ul>
+        <button class = "btn sign-up">sign up</button>
+        <button class = "btn log-in">log in</button>
+    </div>
+    <!-- end of side navbar -->
+
+    <!--fullscrean  -->
+    <div id="model"></div>
+
+   <!-- end  fullscrean  -->
+
+   <!--Body content -->
+   <section class="service sec-width" id="service">
+       <div class="title">
+           <h2>Service</h2>
+       </div>
+       <div class="service-container">
+           <!-- single service-->
+           <article class="service">
+               <div class="service-icon">
+                   <span><i class="fas fa-utensils"></i></span>
+               </div>
+               <div class="service-content">
+                   <h2>Food Service/ Food Runner</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, perferendis?
+                   </p>
+                   <button type="button" class="btn">Know More</button>
+               </div>
+           </article>
+           <!--  End single service-->
+           <article class = "service">
+            <div class = "service-icon">
+                <span>
+                    <i class = "fas fa-broom"></i>
+                </span>
+            </div>
+            <div class = "service-content">
+                <h2>Housekeeping</h2>
+                <p>
+                    Housekeeping refers to the management of duties and chores involved in the running of a household, such as cleaning, cooking, home maintenance, shopping, and bill payment. 
+                    These tasks may be performed by members of the household, or by other persons hired for the purpose.</p>
+                <button type = "button" class = "btn">Know More</button>
+            </div>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class = "service">
+            <div class = "service-icon">
+                <span>
+                    <i class = "fas fa-door-closed"></i>
+                </span>
+            </div>
+            <div class = "service-content">
+                <h2>Room Security</h2>
+                <p>The aim of the safety and security measures followed by the hotels is to reduce the crime, terrorism, natural disasters and from any man made hazards. The hotel security covers various aspects like guest room locking,
+                     public area security and security of the system with equipment's found in the hotel</p>             
+                <button type = "button" class = "btn">Know More</button>
+            </div>
+        </article>
+        <!-- end of single service -->
+    </div>
+</section>
+
+<div class = "book">
+    <form class = "book-form">
+        <div class = "form-item">
+            <label for = "checkin-date">Check In Date: </label>
+            <input type = "date" id = "chekin-date">
+        </div>
+        <div class = "form-item">
+            <label for = "checkout-date">Check Out Date: </label>
+            <input type = "date" id = "chekout-date">
+        </div>
+        <div class = "form-item">
+            <label for = "adult">Adults: </label>
+            <input type = "number" min = "1" value = "1" id = "adult">
+        </div>
+        <div class = "form-item">
+            <label for = "children">Children: </label>
+            <input type = "number" min = "1" value = "1" id = "children">
+        </div>
+        <div class = "form-item">
+            <label for = "rooms">Rooms: </label>
+            <input type = "number" min = "1" value = "1" id = "rooms">
+        </div>
+        <div class = "form-item">
+            <input type = "submit" class = "btn" value = "Book Now">
+        </div>
+    </form>
+</div>
+
+<section class = "rooms sec-width" id = "rooms">
+    <div class = "title">
+        <h2>rooms</h2>
+    </div>
+    <div class = "rooms-container">
+        <!-- single room -->
+        <article class = "room">
+            <div class = "room-image">
+                <img src = "C:\Users\LENOVO\Desktop\Jsmini.html\image\img1.jpg" alt = "room image">
+            </div>
+            <div class = "room-text">
+                <h3>Luxury Rooms</h3>
+                <ul>
+                    <li>
+                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                        Choose Your Hotel Room Before You Arrive.
+                    </li>
+                    <li>
+                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                        Bring Your Own Pillow and Bed Linens.
+                    </li>
+                    <li>
+                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                        Skip the Rollaway and Pack an Air Bed.
+                    </li>
+                    <li>
+                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                        Carry Some Small Luxuries.
+                    </li>
+                </ul>
+                <p>
+                    Hotel security protects hotel guests, employees, and property. Hotel security typically works directly on the hotel property, patrolling the grounds,
+                     and in an office, monitoring security cameras or filling out paperwork</p>              
+                     
+                <p class = "rate">
+                    <span>$99.00 /</span> Per Night
+                </p>
+                <button type = "button" class = "btn">book now</button>
+            </div>
+        </article>
+        <!-- end of single room -->
+        <!-- single room -->
+        <article class = "room">
+            <div class = "room-image">
+                <img src = "C:\Users\LENOVO\Desktop\Jsmini.html\image\img2.jpg" alt = "room image">
+            </div>
+            <div class = "room-text">
+                <h3>Luxury Rooms</h3>
+                <ul>
+                    <li>
+                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                        Choose Your Hotel Room Before You Arrive.
+                    </li>
+                    <li>
+                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                        Bring Your Own Pillow and Bed Linens.
+                    </li>
+                    <li>
+                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                        Skip the Rollaway and Pack an Air Bed.
+                    </li>
+                    <li>
+                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                        Carry Some Small Luxuries.
+                    </li>
+                </ul>
+                <p>
+                    Hotel security protects hotel guests, employees, and property. Hotel security typically works directly on the hotel property, patrolling the grounds,
+                     and in an office, monitoring security cameras or filling out paperwork</p>
+                <p class = "rate">
+                    <span>$99.00 /</span> Per Night
+                </p>
+                <button type = "button" class = "btn">book now</button>
+            </div>
+        </article>
+        <!-- end of single room -->
+        <!-- single room -->
+        <article class = "room">
+            <div class = "room-image">
+                <img src = "C:\Users\LENOVO\Desktop\Jsmini.html\image\img3.jpg" alt = "room image">
+            </div>
+            <div class = "room-text">
+                <h3>Luxury Rooms</h3>
+                <ul>
+                    <li>
+                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                        Choose Your Hotel Room Before You Arrive.
+                    </li>
+                    <li>
+                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                        Bring Your Own Pillow and Bed Linens.
+                    </li>
+                    <li>
+                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                        Skip the Rollaway and Pack an Air Bed.
+                    </li>
+                    <li>
+                        <i class = "fas fa-arrow-alt-circle-right"></i>
+                        Carry Some Small Luxuries.
+                    </li>
+                </ul>
+                <p>
+                    Hotel security protects hotel guests, employees, and property.
+                     Hotel security typically works directly on the hotel property, patrolling the grounds,
+                     and in an office, monitoring security cameras or filling out paperwork</p>
+               
+                <p class = "rate">
+                    <span>$99.00 /</span> Per Night
+                </p>
+                <button type = "button" class = "btn">book now</button>
+            </div>
+        </article>
+        <!-- end of single room -->
+    </div>
+</section>
+
+
+<section class = "customers" id = "customers">
+    <div class = "sec-width">
+        <div class = "title">
+            <h2>customers</h2>
+        </div>
+        <div class = "customers-container">
+            <!-- single customer -->
+            <div class = "customer">
+                <div class = "rating">
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "far fa-star"></i></span>
+                </div>
+                <h3>We Loved it</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
+                <img src = "C:\Users\LENOVO\Desktop\Jsmini.html\image\cus1.jpg" alt = "customer image">
+                <span>Customer Name, Country</span>
+            </div>
+            <!-- end of single customer -->
+            <!-- single customer -->
+            <div class = "customer">
+                <div class = "rating">
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "far fa-star"></i></span>
+                </div>
+                <h3>Comfortable Living</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
+                <img src = "C:\Users\LENOVO\Desktop\Jsmini.html\image\cus2.jpg" alt = "customer image">
+                <span>Customer Name, Country</span>
+            </div>
+            <!-- end of single customer -->
+            <!-- single customer -->
+            <div class = "customer">
+                <div class = "rating">
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "fas fa-star"></i></span>
+                    <span><i class = "far fa-star"></i></span>
+                </div>
+                <h3>Nice Place</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat beatae veritatis provident eveniet praesentium veniam cum iusto distinctio esse, vero est autem, eius optio cupiditate?</p>
+                <img src = "C:\Users\LENOVO\Desktop\Jsmini.html\image\cus3.jpg" alt = "customer image">
+                <span>Customer Name, Country</span>
+            </div>
+            <!-- end of single customer -->
+        </div>
+    </div>
+</section>
+<!-- end of body content -->
+
+<!-- footer -->
+<footer class = "footer">
+    <div class = "footer-container col-6">
+        <div>
+            <h2>About Us </h2>
+            <p>In this website searches multiple types of information from multiple sources to generate optimal results. In just one overview, you are able to get web pages, videos, news, products and results seen from Wikipedia. This enables you to obtain a clearer and complete picture of what the web has to offer. With one entry
+                 you search for the answer in the worlds largest search sources and therefore get better and more results!</p>
+            <ul class = "social-icons">
+                <li class = "flex">
+                    <i class = "fa fa-twitter fa-2x"></i>
+                </li>
+                <li class = "flex">
+                    <i class = "fa fa-facebook fa-2x"></i>
+                </li>
+                <li class = "flex">
+                    <i class = "fa fa-instagram fa-2x"></i>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-3">
+            <h2>Useful Links</h2>
+            <a href = "#">Blog</a>
+            <a href = "#">Rooms</a>
+            <a href = "#">Subscription</a>
+            <a href = "#">Gift Card</a>
+        </div>
+
+        <div class="col-3">
+            <h2>Privacy</h2>
+            <a href = "#">Career</a>
+            <a href = "#">About Us</a>
+            <a href = "#">Services</a>
+        </div>
+
+       
+    </div>
+</footer>
+<!-- end of footer -->
+
+<script src="javascript.js"></script>
+       </div>
+   </section>
+    <!-- End Body content -->
+
+
+
+
+</body>
+</html>
